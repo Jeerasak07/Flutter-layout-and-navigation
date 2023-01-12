@@ -113,7 +113,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 //margin: EdgeInsets.all(10),
                 color: color,
-                child: Text(blocktext)),
+                child: Center(child: Text(blocktext))),
           ],
         ),
       ),
